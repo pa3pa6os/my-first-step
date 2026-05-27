@@ -1,3 +1,46 @@
-.main-title {
-  border: 4px solid black;
+/* basa */
+ul {
+  list-style-type: none;
+}
+/* button */
+.button-call {
+  background-color: #819b57;
+  border: 2px solid #819b57;
+  border-radius: 8px;
+  color: #faf4ea;
+  cursor: pointer;
+}
+
+.button-call:hover {
+  background: transparent;
+  color: #465929;
+}
+/* link */
+.header-link {
+  color: #faf4ea;
+}
+
+.header-link:hover {
+  color: #819b57;
+}
+/* hero section */
+.hero-title {
+  color: #faf4ea;
+}
+.hero-title .accent {
+  color: #819b57;
+}
+/* advantages section */
+.advantages-list {
+  background-color: #819b57;
+  color: #faf4ea;
+}
+.section-title {
+  color: #31261a;
+}
+.accent {
+  color: #819b57;
+}
+.main-text {
+  color: #31261a;
 }
