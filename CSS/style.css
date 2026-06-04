@@ -43,6 +43,20 @@ CTRL+Shift+L = Виділити усі подібні значення!
 }
 
 /* basa */
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
 body {
   color: var(--color-primary-dark);
   font-family: Poppins, sans-serif;
@@ -56,6 +70,10 @@ address {
 }
 ul {
   list-style-type: none;
+}
+
+.section {
+  padding: 48px 0;
 }
 /* button */
 .button-call {
@@ -82,11 +100,16 @@ ul {
   font-weight: 600;
 }
 /* hero section */
+.hero-section {
+  padding: 272px 0;
+}
+
 .hero-title {
   color: var(--color-primary-light);
   text-align: center;
   font-size: 128px;
   font-weight: 900;
+  margin-bottom: 0;
 }
 .hero-title .accent {
   color: var(--color-brand-light);
