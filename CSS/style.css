@@ -63,6 +63,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
+  margin: 0;
 }
 
 address {
@@ -75,6 +76,14 @@ ul {
 .section {
   padding: 48px 0;
 }
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
 /* button */
 .button-call {
   background-color: var(--color-brand-light);
@@ -83,6 +92,7 @@ ul {
   color: var(--color-primary-light);
   cursor: pointer;
   font-weight: 600;
+  padding: 16px 32px;
 }
 
 .button-call:hover {
@@ -115,6 +125,15 @@ ul {
   color: var(--color-brand-light);
 }
 /* advantages section */
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 .advantages-list {
   background-color: var(--color-brand-light);
   color: var(--color-primary-light);
@@ -136,6 +155,13 @@ ul {
   color: var(--color-brand-light);
 }
 /* traditions section */
+.traditions-title {
+  margin-bottom: 42px;
+}
+
+.traditions-section {
+  padding-top: 96px;
+}
 .traditions-text .uppercase {
   text-transform: uppercase;
 }
@@ -145,12 +171,21 @@ ul {
 }
 
 /* chefs section */
+.chefs-title {
+  margin-bottom: 80px;
+}
+
 .chef-title {
+  margin-bottom: 16px;
   font-size: 40px;
   font-weight: 600;
 }
 
 /* formats section */
+.formats-title {
+  margin-bottom: 80px;
+}
+
 .format-title {
   font-size: 24px;
   font-weight: 600;
@@ -158,6 +193,12 @@ ul {
 .format-text {
   font-size: 14px;
   font-weight: 300;
+}
+
+/* contact section */
+
+.contact-title {
+  margin-bottom: 16px;
 }
 
 /* footer */
