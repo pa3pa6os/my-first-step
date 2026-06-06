@@ -1,15 +1,17 @@
-.box {
-  display: inline-block;
+* {
   box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item {
   width: 100px;
   height: 100px;
   background-color: red;
   padding: 20px 15px 20px 15px;
   border: 5px solid rgb(208, 15, 112);
-  border-radius: 5px;
   margin: 10px;
-}
-
-.box:nth-child(n + 2) {
-  background-color: blue;
 }
