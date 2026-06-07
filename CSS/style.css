@@ -7,6 +7,8 @@
 CTRL+Shift+L = Виділити усі подібні значення!
 Можна задати один головний колір тексту який є домінантним через body {color:var();} як ми вже зробили нижче*/
 
+/* https://flexboxfroggy.com/#ru  ПРАКТИКА FLEXBOX! */
+
 @font-face {
   font-display: swap;
   font-family: "Poppins";
@@ -70,6 +72,8 @@ address {
   font-style: normal;
 }
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -109,6 +113,25 @@ ul {
   color: var(--color-brand-light);
   font-weight: 600;
 }
+
+/* header */
+header {
+  background-color: var(--color-primary-dark);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.header-menu {
+  display: flex;
+}
+
 /* hero section */
 .hero-section {
   padding: 272px 0;
