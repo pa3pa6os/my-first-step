@@ -5,13 +5,24 @@
 .flex-container {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .item {
-  width: 100px;
+  flex-basis: 100px;
   height: 100px;
-  background-color: red;
+  background-color: rgb(162, 146, 5);
   padding: 20px 15px 20px 15px;
-  border: 5px solid rgb(208, 15, 112);
+  border: 5px solid rgb(232, 143, 0);
   margin: 10px;
+}
+.item:nth-child(2) {
+  order: 4;
+  align-self: flex-start;
+  height: 50px;
+  flex-basis: 50px;
+}
+
+.item:nth-child(3) {
+  align-self: flex-start;
+  height: 80px;
+  flex-basis: 80px;
 }
