@@ -43,6 +43,7 @@ CTRL+Shift+L = Виділити усі подібні значення!
   --color-brand-normal: #819b57;
   --color-brand-dark: #465929;
   --color-brand-light: #cfcfbc;
+  --color-secondary-dark: #a18268;
 }
 
 /* basa */
@@ -62,6 +63,7 @@ p {
 
 body {
   color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
   font-family: Poppins, sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -246,6 +248,12 @@ header {
   font-weight: 600;
 }
 
+.chef-photo {
+  border-radius: 4px 4px 4px 200px;
+  box-shadow:
+    -16px 16px 0 0 var(--color-primary-light),
+    -16px 16px 0 2px var(--color-secondary-dark);
+}
 /* formats section */
 
 .formats-list {
@@ -309,5 +317,3 @@ header {
   background-size: cover;
   background-position: center;
 }
-
-/* 66:09 */
