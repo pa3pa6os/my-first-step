@@ -306,6 +306,15 @@ header {
   font-weight: 300;
   color: var(--color-brand-normal);
 }
+
+.address-icon {
+  fill: var(--color-primary-light);
+}
+
+.address-icon:hover {
+  fill: var(--color-brand-normal);
+}
+
 .address-copyright {
   font-size: 14px;
 }
