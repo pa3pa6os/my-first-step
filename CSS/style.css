@@ -200,14 +200,15 @@ header {
 .accent {
   color: var(--color-brand-normal);
 }
+
 /* traditions section */
+
 .traditions-title {
   margin-bottom: 42px;
 }
 .traditions-content {
   max-width: 710px;
 }
-
 .traditions-section {
   padding-top: 96px;
 }
@@ -223,17 +224,19 @@ header {
   justify-content: space-between;
   gap: 40px;
 }
-
 .traditions-text.limited {
   max-width: 350px;
 }
+.traditions-bakerman {
+  border-radius: 200px 200px 4px 4px;
+}
 
 /* chefs section */
+
 .chefs-title {
   margin: 0 auto 80px;
   max-width: 520px;
 }
-
 .chefs-title::before,
 .chefs-title::after {
   display: block;
@@ -241,19 +244,28 @@ header {
   border: 2px solid var(--color-brand-light);
   content: "";
 }
-
-.chef-title {
-  margin-bottom: 16px;
-  font-size: 40px;
-  font-weight: 600;
+.chefs-list {
+  display: flex;
+  gap: 30px;
 }
-
+.chefs-item {
+  flex-basis: calc((100% - 30px) / 2);
+}
+.chef-card {
+  display: flex;
+}
 .chef-photo {
   border-radius: 4px 4px 4px 200px;
   box-shadow:
     -16px 16px 0 0 var(--color-primary-light),
     -16px 16px 0 2px var(--color-secondary-dark);
 }
+.chef-title {
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
 /* formats section */
 
 .formats-list {
